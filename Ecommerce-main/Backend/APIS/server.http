@@ -1,0 +1,25 @@
+POST http://localhost:8080/ele/add-ele
+Content-Type: application/json
+
+{
+    "eleID":1,
+    "Name":"LG 2",
+    "img":"https://assets.mspimages.in/c/tr:w-375,h-300,c-at_max/583870-10-1.jpg",
+    "type":"AC",
+    "price":22500
+}
+
+###
+GET http://localhost:8080/cart/all-items
+
+###
+DELETE http://localhost:8080/cart/delete/Micromax
+
+###
+POST http://localhost:8080/users/login
+Content-Type: application/json
+
+{
+    "name":"Abinay",
+    "password":"asdfghjkl"
+}

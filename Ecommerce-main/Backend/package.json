@@ -1,0 +1,26 @@
+{
+  "name": "aauorabackend",
+  "version": "1.0.0",
+  "description": "backend for aauroa",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Medipally Abinay",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.30.0",
+    "cors": "^2.8.5",
+    "cros": "^1.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "json-web-token": "^3.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.7.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemon": "^2.0.18"
+  }
+}
